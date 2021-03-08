@@ -28,6 +28,9 @@ footer {
     align-items: center;
 }
 
+
+/*banner start*/
+
 .o-banner {
     display: flex;
     align-items: center;
@@ -43,8 +46,11 @@ footer {
     margin: 3rem;
 }
 
+
+/*menu start*/
+
 .o-nav {
-    background: #ffffff;
+    background: #fff;
     width: 100%;
     margin-top: 1rem;
     padding: 1rem;
@@ -71,7 +77,10 @@ footer {
     color: #ffffff;
 }
 
-.o-adoptar {
+
+/*pet selector start*/
+
+.o-apadrinar {
     padding: 1rem;
     display: flex;
     justify-content: space-around;
@@ -158,6 +167,9 @@ footer {
     background: #ffffff;
     color: #FF5645;
 }
+
+
+/*cards start*/
 
 .o-cards {
     display: flex;
