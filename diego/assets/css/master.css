@@ -7,7 +7,7 @@ img{
 a{
   text-decoration: none;
   color:#000000 ;
-
+  padding: 1rem;
 }
 footer{
   width: 100%;
@@ -44,11 +44,19 @@ align-items: center;
   background: #ffffff;
   width: 100%;
   margin-top: 1rem;
-  padding: 1rem;
+ 
   border: solid  2px #d10f0f;
  display: flex;
  align-items: center;
  justify-content: space-between;
+}
+.o-logo{
+  margin: 1rem;
+}
+.o-activate{
+  background-color:  #FF5645;
+  height:  100%;
+  color :#ffffff; 
 }
 .o-sub-menu{
 
@@ -58,10 +66,12 @@ align-items: center;
 }
 .o-nav .o-enlaces{
 width: 50%;
+height: 100%;
   display: flex;
   justify-content: space-around;
 }
 .o-nav .o-enlaces a:hover{
+  height: 100%;
   background-color: #FF5645;
   color: #ffffff;
 }
