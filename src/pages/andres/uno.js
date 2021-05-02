@@ -1,5 +1,5 @@
 function App() {
-  return <div>camperta de andres</div>;
+  return <div>carperta de andres</div>;
 }
 
 export default App;

@@ -5,16 +5,16 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-      <Route path="/campeta">
+      <Route path="/isabella">
           <Cuenta />
         </Route>
-      <Route path="/juan">
+      <Route path="/andres">
           <Cuenta />
         </Route>
       <Route path="/diego">
           <Cuenta />
         </Route>
-      <Route path="/isabella">
+      <Route path="/juan">
           <Cuenta />
         </Route>
         <Route path="/">
