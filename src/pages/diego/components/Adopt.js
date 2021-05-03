@@ -6,6 +6,8 @@ import Ga from "../assets/gato.jpg";
 import Nav from "./nav";
 import Banner from "./Banner";
 import Seccion from "./Carousel";
+import Footer from "./Footer";
+import Container from "@material-ui/core/Container";
 function Adopt() {
   let state = {
     menu: [
@@ -145,13 +147,29 @@ function Adopt() {
         img: Ga,
       },
     ],
+    footer: {
+      numero: "123456789",
+      email: "corre@gmail.com",
+      redso: [
+        { red: "Facebook", url: "#" },
+        { red: "Instagram", url: "#" },
+      ],
+    },
   };
   return (
     <div>
       <Nav menu={state.menu} />
       <Banner imgbanner={Back} pet={Dog} info={state.infobanner} />
-      <Seccion title="juan" pets={state.perros} />
-      <Seccion title="Gato" pets={state.gatos} />
+      <Container maxWidth="xl">
+        <Seccion title="juan" pets={state.perros} />
+        <Seccion title="Gato" pets={state.gatos} />
+      </Container>
+
+      <Footer
+        numers={state.footer.numero}
+        email={state.footer.email}
+        redso={state.footer.redso}
+      />
     </div>
   );
 }

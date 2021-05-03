@@ -1,7 +1,9 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Principal from "../andres/uno";
-import RegistroMascota from "../isabella/RegistroMascota";
+import RegistroMascota from "../isabella/uno";
 import Diego from "../diego/uno";
+import Juan from "../juan/uno";
+
 function App() {
   return (
     <BrowserRouter>
@@ -10,7 +12,7 @@ function App() {
           <RegistroMascota />
         </Route>
         <Route path="/juan">
-          <RegistroMascota />
+          <Juan />
         </Route>
         <Route path="/diego">
           <Diego />
