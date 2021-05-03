@@ -8,8 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/campeta">
-          <RegistroMascota />
+        <Route path="/andres">         
         </Route>
         <Route path="/juan">
           <Juan />
