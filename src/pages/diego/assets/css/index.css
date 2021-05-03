@@ -1,0 +1,63 @@
+.o-nav-adopt {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "roboto";
+}
+.o-nav-adopt img {
+  box-sizing: border-box;
+  height: 98%;
+}
+
+.o-nav-adopt .o-options {
+  height: 1.2rem;
+}
+.o-nav-adopt .o-options a {
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: bold;
+
+  color: black;
+  height: 100%;
+  padding: 1.4rem 0.5rem;
+}
+.o-container-banner {
+  display: flex;
+  align-items: flex-end;
+}
+.o-container-banner img {
+  width: 100%;
+}
+.o-container-banner-info {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.o-container-banner-info img {
+  width: 40%;
+}
+.o-container-banner-info .o-banner-info {
+  margin-left: 3rem;
+  transform: translateY(-50%);
+  max-width: 30rem;
+}
+.o-container-banner-info .o-banner-info .o-info-title {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 3rem;
+  color: white;
+}
+.o-container-banner-info .o-banner-info .o-info-body {
+  font-family: "Roboto";
+  font-weight: normal;
+  color: white;
+  font-size: 1rem;
+}
+.o-active-menu {
+  background-color: #ff5645;
+  color: #ffffff !important;
+}
