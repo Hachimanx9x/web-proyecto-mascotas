@@ -145,3 +145,237 @@ a{
     color: #FF5645;
     outline: 1px solid #FF5645;
 }
+
+/************************************* CSS de Registro Mascota Abandonada ********************************************/
+
+
+.ig-registro-mascota-encontrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.ig-registro-mascota-encontrada a{
+    color: #4587FF;
+    text-decoration: none;
+}
+
+.ig-registro-mascota-encontrada h1{
+    font-size: 40px;
+    margin: 5px 0px 5px 0px;
+}
+.ig-registro-mascota-encontrada h5{
+    margin:30px;
+}
+
+.i-fomulario-mascota-encontrada{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.i-img-mascota-encontrada{
+    margin-right: 50px;
+    width: 30%;
+    height: 30%;
+}
+
+.i-iconos-mascota-encontrada{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px 5px 5px;
+    padding: 10px;
+}
+
+.i-iconos-mascota-encontrada img{
+    justify-content: center;
+    margin: 5px 30px 5px 30px;
+
+}
+
+
+.i-datos-mascota-encontrada{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+}
+
+.i-datos-lado-mascota-encontrada{
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+}
+/* acomodo los labels y los elementos que lo componen*/
+
+.i-datos-texto-mascota-encontrada{
+    display: flex;
+    flex-direction: row;
+}
+
+/* uso de la herramienta tooltip para probar funcionalidad */
+.tooltip{
+    position: relative;
+    display: inline-block;
+    color: #4587FF;
+}
+
+.tooltip .tooltiptext{
+  visibility: hidden;
+  font-size: 16px;
+  font-style: italic;
+  width: 300px;
+  background-color: #4587FF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /*ubacion del tooltpip*/
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -160px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4587FF transparent transparent transparent;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* input*/
+.i-caja-mascota-mencontrada{
+    
+        background: #F3F3F3;
+        padding: 15px;
+        width: 100%;
+        margin:0px 10px 0px 0px;
+        border: 0;
+        text-decoration: none;
+        outline: none;
+        font-size: 1.2rem;
+    
+    
+}
+
+/*breve animacion de color al campo de texto (input) */
+
+.i-caja-mascota-mencontrada:focus{
+    outline: 1px solid #4587FF;
+}
+
+/*segunda parte del formulario */
+
+.i-informacion-contenedo-mascota-encontrada{
+
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.i-informacion-zona{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+
+/*decoracion elementos input label y text*/
+
+.i-datos-texto-mascota-encontrada{
+    font-size: 1.5rem;
+    margin: 0px 0px 5px 0px;
+}
+
+.i-caja-mascota-encontrada{
+    background: #F3F3F3;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.i-caja-datos-zona{
+    background: #F3F3F3;
+    margin: 0 5px;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.i-caja-datos-zona:focus{
+    outline: 1px solid #4587FF;
+}
+
+.fechaid{
+    margin: 5px 0 5px 0;
+}
+
+
+
+/* textarea */
+
+textarea{
+    background: #F3F3F3;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    height: 200px;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+textarea:focus{
+    outline: 1px solid #4587FF;
+}
+
+
+/* boton decoracion*/
+.i-boton-registart{
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px 0 5px;
+}
+.i-btn-registrar{
+    background-color: #4587FF;
+    width: 20%;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 20px 5px 20px 5px;
+    outline: none;
+}
+
+.i-btn-registrar:hover{
+    background-color: white;
+    color: #4587FF;
+    outline: 1px solid #4587FF;
+}

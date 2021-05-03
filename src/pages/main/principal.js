@@ -1,21 +1,21 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Principal from "../andres/uno";
-import Cuenta from "../isabella/Cuenta";
+import RegistroMascota from "../isabella/RegistroMascota";
 function App() {
   return (
     <BrowserRouter>
       <Switch>
       <Route path="/campeta">
-          <Cuenta />
+          <RegistroMascota />
         </Route>
       <Route path="/juan">
-          <Cuenta />
+          <RegistroMascota />
         </Route>
       <Route path="/diego">
-          <Cuenta />
+          <RegistroMascota />
         </Route>
       <Route path="/isabella">
-          <Cuenta />
+          <RegistroMascota />
         </Route>
         <Route path="/">
           <Principal />
