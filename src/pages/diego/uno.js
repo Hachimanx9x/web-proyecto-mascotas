@@ -5,12 +5,9 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/ruta1">
-          <Principal />
-        </Route>
-        <Route path="/">
-          <Principal />
-        </Route>
+        <Route exact path="/diego/perro" component={<div></div>} />
+        <Route exact path="/diego/gato" component={<div></div>} />
+        <Route path="/" component={Principal} />
       </Switch>
     </BrowserRouter>
   );
