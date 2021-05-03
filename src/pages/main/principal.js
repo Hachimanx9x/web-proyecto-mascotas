@@ -20,7 +20,6 @@ function App() {
         <Route path="/">
           <Principal />
         </Route>
-     
       </Switch>
     </BrowserRouter>
   );
