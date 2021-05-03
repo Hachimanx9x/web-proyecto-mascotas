@@ -1,5 +1,5 @@
 
-
+/*
 //importar imagenes
 import paw from "./Assets/pawprint1.png";
 
@@ -23,6 +23,22 @@ function App() {
     </div>
   )
   
+}
+*/
+import Inicio from "./Components/Inicio/Inicio";
+import Apadrinar from "./Components/Apadrinar/Apadrinar";
+
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/andres/Apadrinar" component={Apadrinar} />
+        <Route path="/" component={Inicio} />
+      </Switch>
+    </BrowserRouter>
+  );
 }
 
 export default App;
