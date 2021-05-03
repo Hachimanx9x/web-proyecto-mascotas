@@ -9,7 +9,7 @@
 
 .o-container-footer .o-footer {
   width: 90%;
-  min-width: 90rem;
+
   display: flex;
   justify-content: space-around;
 }
