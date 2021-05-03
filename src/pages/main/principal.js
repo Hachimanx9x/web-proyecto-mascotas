@@ -1,20 +1,21 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Principal from "../andres/uno";
 import RegistroMascota from "../isabella/RegistroMascota";
+import Diego from "../diego/uno";
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-      <Route path="/campeta">
+        <Route path="/campeta">
           <RegistroMascota />
         </Route>
-      <Route path="/juan">
+        <Route path="/juan">
           <RegistroMascota />
         </Route>
-      <Route path="/diego">
-          <RegistroMascota />
+        <Route path="/diego">
+          <Diego />
         </Route>
-      <Route path="/isabella">
+        <Route path="/isabella">
           <RegistroMascota />
         </Route>
         <Route path="/">
