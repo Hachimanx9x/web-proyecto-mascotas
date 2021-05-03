@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Principal from "../andres/uno";
-import RegistroMascota from "../isabella/RegistroMascota";
+import RegistroMascota from "../isabella/uno";
 import Diego from "../diego/uno";
 function App() {
   return (
