@@ -1,27 +1,3 @@
-.o-nav-adopt {
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: "roboto";
-}
-.o-nav-adopt img {
-  box-sizing: border-box;
-  height: 98%;
-}
-
-.o-nav-adopt .o-options {
-  height: 1.2rem;
-}
-.o-nav-adopt .o-options a {
-  box-sizing: border-box;
-  font-size: 1rem;
-  font-weight: bold;
-
-  color: black;
-  height: 100%;
-  padding: 1.4rem 0.5rem;
-}
 .o-container-banner {
   display: flex;
   align-items: flex-end;
@@ -56,51 +32,4 @@
   font-weight: normal;
   color: white;
   font-size: 1rem;
-}
-
-.o-active-menu {
-  background-color: #ff5645;
-  color: #ffffff !important;
-}
-
-.o-container-footer {
-  margin-top: 0.5rem;
-  width: 100%;
-  background-color: #22262a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.o-container-footer .o-footer {
-  width: 90%;
-  min-width: 90rem;
-  display: flex;
-  justify-content: space-around;
-}
-.o-container-footer .o-footer .o-footer-numers {
-  width: 15rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  font-family: "roboto";
-  color: #ffffff;
-}
-.o-container-footer .o-footer .o-footer-email {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  font-family: "roboto";
-  color: #ffffff;
-}
-.o-container-footer .o-footer o-footer-red {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.o-svg {
-  color: #ffffff;
-  font-size: 10rem !important;
 }

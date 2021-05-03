@@ -2,7 +2,7 @@ import PhoneInTalkIcon from "@material-ui/icons/PhoneInTalk";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
-
+import "./footer.css";
 export default function Footer({ numers, email, redso }) {
   return (
     <div className="o-container-footer">
