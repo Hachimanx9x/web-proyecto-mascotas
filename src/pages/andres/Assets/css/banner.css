@@ -1,0 +1,35 @@
+.o-container-banner {
+    display: flex;
+    align-items: flex-end;
+    
+  }
+  .o-container-banner img {
+    width: 100%;
+  }
+  .o-container-banner-info {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+ 
+  .o-container-banner-info .o-banner-info {
+    margin-left: 3rem;
+    transform: translateY(-50%);
+    max-width: 30rem;
+  }
+  .o-container-banner-info .o-banner-info .o-info-title {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+  }
+  .o-container-banner-info .o-banner-info .o-info-body {
+    font-family: "Roboto";
+    font-weight: normal;
+    color: white;
+    font-size: 1rem;
+  }
+  

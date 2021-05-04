@@ -1,0 +1,30 @@
+.o-nav-adopt {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "roboto";
+  }
+  .o-nav-adopt img {
+    box-sizing: border-box;
+    height: 98%;
+  }
+  
+  .o-nav-adopt .o-options {
+    height: 1.2rem;
+  }
+  .o-nav-adopt .o-options a {
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: bold;
+  
+    color: black;
+    height: 100%;
+    padding: 1.4rem 0.5rem;
+  }
+  
+  .o-active-menu {
+    background-color: #ff5645;
+    color: #ffffff !important;
+  }
+  
