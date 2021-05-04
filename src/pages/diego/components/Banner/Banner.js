@@ -1,3 +1,4 @@
+import "./banner.css";
 export default function Adopt({ imgbanner, pet, info }) {
   return (
     <div className="o-container-banner">

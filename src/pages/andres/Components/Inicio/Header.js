@@ -2,10 +2,10 @@ import React from "react";
 //import IconButton from '@material-ui/core/IconButton';
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import "./Nav.css";
+import "./Header.css";
 //////
 
-import Logo from "../assets/logo.svg";
+import Logo from "../../Assets/pawprint1.png";
 export default function ButtonAppBar({ menu }) {
   return (
     <div className={{ flexGrow: 1 }}>

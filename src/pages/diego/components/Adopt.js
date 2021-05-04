@@ -3,10 +3,9 @@ import Back from "../assets/fondo adop.png";
 import Dog from "../assets/Perros.png";
 import Do from "../assets/perro.jpg";
 import Ga from "../assets/gato.jpg";
-import Nav from "./nav";
-import Banner from "./Banner";
-import Seccion from "./Carousel";
-import Footer from "./Footer";
+
+import { Carousel, Banner, Footer, Nav } from "./Components";
+
 import Container from "@material-ui/core/Container";
 function Adopt() {
   let state = {
@@ -158,11 +157,11 @@ function Adopt() {
   };
   return (
     <div>
-      <Nav menu={state.menu} />
+      <Nav />
       <Banner imgbanner={Back} pet={Dog} info={state.infobanner} />
-      <Container maxWidth="xl">
-        <Seccion title="juan" pets={state.perros} />
-        <Seccion title="Gato" pets={state.gatos} />
+      <Container maxWidth="xl" className="o-container">
+        <Carousel title="juan" pets={state.perros} />
+        <Carousel title="Gato" pets={state.gatos} />
       </Container>
 
       <Footer
