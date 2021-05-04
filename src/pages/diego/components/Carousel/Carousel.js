@@ -20,9 +20,12 @@ export default function Carousel({ title, pets }) {
         verticalMode={false}
       >
         {pets.map((ele, i) => (
-          <div>
-            <Cards img={ele.img} />
-          </div>
+          <Cards
+            key={i}
+            img={ele.img}
+            name={ele.nombre}
+            description={ele.descripcion}
+          />
         ))}
       </Slider>
     </div>

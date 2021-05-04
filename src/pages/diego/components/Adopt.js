@@ -3,7 +3,7 @@ import Back from "../assets/fondo adop.png";
 import Dog from "../assets/Perros.png";
 import Do from "../assets/perro.jpg";
 import Ga from "../assets/gato.jpg";
-
+//components
 import { Carousel, Banner, Footer, Nav } from "./Components";
 
 import Container from "@material-ui/core/Container";
@@ -157,7 +157,7 @@ function Adopt() {
   };
   return (
     <div>
-      <Nav />
+      <Nav menu={state.menu} />
       <Banner imgbanner={Back} pet={Dog} info={state.infobanner} />
       <Container maxWidth="xl" className="o-container">
         <Carousel title="juan" pets={state.perros} />
