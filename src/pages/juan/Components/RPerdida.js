@@ -62,19 +62,23 @@ export default function Perdida() {
     <div className="o-PerdidaContainer">
 
       <Nav menu={states.menu}> </Nav>
+
       <Banner
         perro={Img}
         fondo="#22262A"
         titulo={states.Banner.titulo}
         texto={states.Banner.texto}
       />
+
       <FormularioReporte
         perfilimg={Img2}
         colorboton="#22262A"
         titulo={states.Formulario.titulo}
         texto={states.Formulario.texto}
       />
+
       <Footer></Footer>
+      
     </div>
   );
 }
