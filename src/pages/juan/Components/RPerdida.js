@@ -62,7 +62,7 @@ export default function Perdida() {
     <div className="o-PerdidaContainer">
 
 
-      <Nav menu={states.menu}></Nav>
+      <Nav menu={states.menu}> </Nav>
       <Banner
         perro={Img}
         fondo="#22262A"
