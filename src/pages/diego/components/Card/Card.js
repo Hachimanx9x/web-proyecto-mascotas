@@ -11,9 +11,17 @@ import "./card.css";
 const useStyles = makeStyles({
   root: {
     maxWidth: 240,
+    minWidth: 200,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
   },
   media: {
     height: 140,
+    width: 140,
+    borderRadius: 150,
+    transform: "translateX(25%)",
   },
 });
 

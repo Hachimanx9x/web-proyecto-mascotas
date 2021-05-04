@@ -1,5 +1,5 @@
 import Slider from "react-elastic-carousel";
-import Cards from "./Card/Card";
+import Cards from "../Card/Card";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import "./carousel.css";
