@@ -1,0 +1,14 @@
+.o-container-carousel {
+  padding: 1rem;
+  margin: 1rem 0rem;
+}
+.o-container-carousel .o-bar {
+  margin-bottom: 0.5rem;
+}
+.min-nav {
+  background-color: #ffffff;
+  color: black;
+  font-size: 2rem;
+  font-family: "roboto";
+  font-weight: bold;
+}
