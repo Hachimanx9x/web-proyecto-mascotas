@@ -4,7 +4,7 @@ import Dog from "../assets/Perros.png";
 import Do from "../assets/perro.jpg";
 import Ga from "../assets/gato.jpg";
 import Nav from "./nav";
-import Banner from "./Banner";
+import Banner from "./Banner/Banner";
 import Seccion from "./Carousel";
 import Footer from "./Footer";
 import Container from "@material-ui/core/Container";
@@ -158,9 +158,9 @@ function Adopt() {
   };
   return (
     <div>
-      <Nav menu={state.menu} />
+      <Nav />
       <Banner imgbanner={Back} pet={Dog} info={state.infobanner} />
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" className="o-container">
         <Seccion title="juan" pets={state.perros} />
         <Seccion title="Gato" pets={state.gatos} />
       </Container>

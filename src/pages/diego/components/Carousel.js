@@ -1,9 +1,17 @@
 import Slider from "react-elastic-carousel";
-import Cards from "./Card";
+import Cards from "./Card/Card";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import "./carousel.css";
 export default function Carousel({ title, pets }) {
+  if (title === undefined) {
+    title = "default";
+  }
   return (
     <div className="o-container-carousel">
-      <div className="o-min-Nav">{title}</div>
+      <AppBar className="o-bar" position="static">
+        <Toolbar className="min-nav">{title}</Toolbar>
+      </AppBar>
       <Slider
         itemsToShow={5}
         pagination={false}

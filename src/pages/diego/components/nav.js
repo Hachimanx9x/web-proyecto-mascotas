@@ -7,6 +7,45 @@ import "./Nav.css";
 
 import Logo from "../assets/logo.svg";
 export default function ButtonAppBar({ menu }) {
+  if (menu === undefined) {
+    menu = [
+      {
+        text: "Inicio",
+        url: "/diego",
+        active: false,
+      },
+      {
+        text: "Registro",
+        url: "/diego",
+        active: false,
+      },
+      {
+        text: "Adoptar",
+        url: "/diego",
+        active: true,
+      },
+      {
+        text: "Apadrinar",
+        url: "/diego",
+        active: false,
+      },
+      {
+        text: "Reportar",
+        url: "/diego",
+        active: false,
+      },
+      {
+        text: "Perdida",
+        url: "/diego",
+        active: false,
+      },
+      {
+        text: "Login",
+        url: "/diego",
+        active: false,
+      },
+    ];
+  }
   return (
     <div className={{ flexGrow: 1 }}>
       <AppBar position="static">
