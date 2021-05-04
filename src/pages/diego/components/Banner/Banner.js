@@ -1,7 +1,10 @@
 import "./banner.css";
-export default function Adopt({ imgbanner, pet, info, direction }) {
+export default function Adopt({ imgbanner, pet, info, direction, width }) {
   if (direction === undefined) {
     direction = "left";
+  }
+  if (width === undefined) {
+    width = "40%";
   }
 
   let orden = () => {
@@ -12,14 +15,14 @@ export default function Adopt({ imgbanner, pet, info, direction }) {
             <div className="o-info-title">{info.title}</div>
             <div className="o-info-body">{info.body}</div>
           </div>
-          <img src={pet} alt="mascota" />
+          <img src={pet} alt="mascota" style={{ width: width }} />
         </div>
       );
     }
     if (direction === "right") {
       return (
         <div className="o-container-banner-info">
-          <img src={pet} alt="mascota" />
+          <img src={pet} alt="mascota" style={{ width: width }} />
           <div className="o-banner-info">
             <div className="o-info-title">{info.title}</div>
             <div className="o-info-body">{info.body}</div>
