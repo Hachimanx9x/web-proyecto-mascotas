@@ -1,15 +1,20 @@
 
 //import imagenes
 import BannerDoggo from "../../Assets/bannerdoggo.png";
+import BannerCat from "../../Assets/bannercat.png";
+import doggo from "../../Assets/doggo2.png";
 
 //import componentes
 import Header from "../Inicio/Header";
 import Footer from "../Inicio/Footer";
-import Banner from "../Inicio/Banner";
-
+import BannerA from "../Inicio/Banner";
+import BannerA2 from "../Apadrinar/Banner2A";
+import Card from "../Apadrinar/Perros";
 
 function Apadrinar(){
-    
+  
+    const array =["card1", "card2", "card3"];
+
     let state = {
        
         menu: [
@@ -73,10 +78,22 @@ function Apadrinar(){
                  menu={state.menu}
             />
 
-            <Banner 
-                imgbanner={BannerDoggo} 
-                 info={state.infobanner} 
+           
+            <BannerA
+                imgbanner={BannerDoggo}
+                info={state.infobanner}
+            />
 
+            <div className="Perros">
+              {array.map((ele, i) => (
+                <Card key={i} img={doggo} text={ele}/>
+              ))}
+
+            </div>
+
+            <BannerA2
+                imgbanner={BannerCat}
+                info={state.infobanner}
             />
 
             <Footer

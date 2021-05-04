@@ -5,6 +5,7 @@ import Apadrinar from "./Components/Apadrinar/Apadrinar";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import "./Assets/css/banner.css";
+import "./Assets/css/card.css";
 
 function App() {
   return (
