@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard({ img, name, description }) {
+export default function MediaCard({ img, name, description, url }) {
   const classes = useStyles();
 
   return (
@@ -55,7 +55,7 @@ export default function MediaCard({ img, name, description }) {
           <Button href="#" className="o-card-button-a" size="small">
             Adoptar
           </Button>
-          <Button href="#" className="o-card-button-b" size="small">
+          <Button href={url} className="o-card-button-b" size="small">
             Perfil
           </Button>
         </CardActions>

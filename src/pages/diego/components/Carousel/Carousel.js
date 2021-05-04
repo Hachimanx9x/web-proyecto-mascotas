@@ -25,6 +25,7 @@ export default function Carousel({ title, pets }) {
             img={ele.img}
             name={ele.nombre}
             description={ele.descripcion}
+            url={ele.url}
           />
         ))}
       </Slider>

@@ -1,0 +1,35 @@
+.o-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.o-info .o-contain-info {
+  display: flex;
+  flex-grow: 1;
+}
+.o-info .o-contain-info .o-pet {
+  box-sizing: border-box;
+  padding: 0rem 1rem;
+  width: 100%;
+  font-family: "Roboto";
+}
+.o-info .o-contain-info .o-pet fieldset {
+  width: 100%;
+  margin: 0.3rem 0rem;
+  border-color: #4587ff;
+  border-radius: 0.3rem;
+}
+.o-info .o-contain-info .o-pet fieldset legend {
+  color: #636363;
+}
+.o-info .o-contain-info .o-pet fieldset p {
+  margin: 0;
+  padding: 0;
+}
+.o-info .o-contain-info .o-pet img {
+  width: 100%;
+}
+.o-info .o-contain-info .o-map {
+  box-sizing: border-box;
+  margin: 0rem 2.3rem;
+}
