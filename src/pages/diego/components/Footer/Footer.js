@@ -4,6 +4,18 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import "./footer.css";
 export default function Footer({ numers, email, redso }) {
+  if (numers === undefined) {
+    numers = "123456789";
+  }
+  if (email === undefined) {
+    email = "corre@gmail.com";
+  }
+  if (redso === undefined) {
+    redso = [
+      { red: "Facebook", url: "#" },
+      { red: "Instagram", url: "#" },
+    ];
+  }
   return (
     <div className="o-container-footer">
       <div className="o-footer">
