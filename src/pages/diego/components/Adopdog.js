@@ -135,7 +135,12 @@ export default function AdopDog() {
   return (
     <div>
       <Nav menu={state.menu} />
-      <Banner imgbanner={Back} pet={Dog} info={state.infobanner} />
+      <Banner
+        imgbanner={Back}
+        pet={Dog}
+        info={state.infobanner}
+        direction="left"
+      />
       <Container maxWidth="xl" className="o-container">
         <Carousel title="juan" pets={state.perros} />
         <Form
