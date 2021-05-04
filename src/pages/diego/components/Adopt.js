@@ -3,9 +3,8 @@ import Back from "../assets/fondo adop.png";
 import Dog from "../assets/Perros.png";
 import Do from "../assets/perro.jpg";
 import Ga from "../assets/gato.jpg";
-import Nav from "./nav";
 
-import { Carousel, Banner, Footer } from "./Components";
+import { Carousel, Banner, Footer, Nav } from "./Components";
 
 import Container from "@material-ui/core/Container";
 function Adopt() {

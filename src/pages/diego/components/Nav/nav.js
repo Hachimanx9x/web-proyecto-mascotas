@@ -5,7 +5,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import "./Nav.css";
 //////
 
-import Logo from "../assets/logo.svg";
+import Logo from "../../assets/logo.svg";
 export default function ButtonAppBar({ menu }) {
   if (menu === undefined) {
     menu = [
