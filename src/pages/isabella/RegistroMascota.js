@@ -2,10 +2,67 @@ import React from "react";
 import ImagePerroAbandonado from "../../assets/img/perroabandonado.png";
 import ImageCamara from "../../assets/img/camara.png";
 import ImageSubir from "../../assets/img/subir.png";
+import {Nav} from "../diego/components/Components";
+import Banneropciones from "./BannerOpciones";
+import ImgPerro from "../../assets/img/perrohappy.png";
 import Footer from "./Footer";
 import "./stylecomponets.css"
 
 const RegistroMascotaAbandonada = () => (
+
+    <div className="ig-RME">
+        <Nav menu={
+            [
+                {
+                  text: "Inicio",
+                  url: "/diego",
+                  active: false,
+                },
+                {
+                  text: "Registro",
+                  url: "/diego",
+                  active: true,
+                },
+                {
+                  text: "Adoptar",
+                  url: "/diego",
+                  active: false,
+                },
+                {
+                  text: "Apadrinar",
+                  url: "/diego",
+                  active: false,
+                },
+                {
+                  text: "Reportar",
+                  url: "/diego",
+                  active: false,
+                },
+                {
+                  text: "Perdida",
+                  url: "/diego",
+                  active: false,
+                },
+                {
+                  text: "Login",
+                  url: "/diego",
+                  active: false,
+                },
+              ]
+        } />
+
+        <Banneropciones 
+        imgbanner={ImgPerro}
+        titulo="Registro de mascota encontrada"
+        descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+          centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+           popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        colorfondo="#4587FF"
+        altimg="perro-feliz"   />
+
     <div className="ig-registro-mascota-encontrada">
         <h5>¡Gracias por encontarla!</h5>
         <h1>Registra a la mascota encontrada</h1>
@@ -64,6 +121,7 @@ const RegistroMascotaAbandonada = () => (
                         
 
 
+    </div>
     </div>
 
     );

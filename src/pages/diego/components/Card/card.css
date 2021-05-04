@@ -3,3 +3,16 @@
   justify-content: center;
   margin: 0.5rem;
 }
+.o-card-space-buttons {
+  width: 80% !important;
+  display: flex;
+  justify-content: space-between;
+}
+.o-card-button-a {
+  background-color: #ff5645 !important;
+  color: white !important;
+}
+.o-card-button-b {
+  background-color: #4587ff !important;
+  color: white !important;
+}
