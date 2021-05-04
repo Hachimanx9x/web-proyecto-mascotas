@@ -1,14 +1,15 @@
 
 //import imagenes
 import BannerDoggo from "../../Assets/bannerdoggo.png";
-import BannerCat from "../../Assets/bannercat.png";
 import doggo from "../../Assets/doggo2.png";
+import gato from "../../Assets/gato.png";
+import fondo from "../../Assets/fondo.png";
 
 //import componentes
-import Header from "../Inicio/Header";
+import {Nav, Banner} from "../../../diego/components/Components";
 import Footer from "../Inicio/Footer";
 import BannerA from "../Inicio/Banner";
-import BannerA2 from "../Apadrinar/Banner2A";
+
 import Card from "../Apadrinar/Perros";
 
 function Apadrinar(){
@@ -74,7 +75,7 @@ function Apadrinar(){
     return(
         <div className="Apadrinar">
 
-            <Header
+            <Nav
                  menu={state.menu}
             />
 
@@ -91,10 +92,10 @@ function Apadrinar(){
 
             </div>
 
-            <BannerA2
-                imgbanner={BannerCat}
-                info={state.infobanner}
-            />
+            <Banner imgbanner={fondo} pet={gato} info={{
+                title: "Centro de adopción de mascotas",
+                 body: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas 'Letraset', las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+              }} direction="right" />
 
             <Footer
                 numbers={state.footer.numero}
