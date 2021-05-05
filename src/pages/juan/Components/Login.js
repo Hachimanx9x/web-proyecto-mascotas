@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styles/StyleLogin.css';
-import Img from '../Assets/Perros.svg';
+import Img from '../Assets/Perrito.svg';
+import Img2 from '../Assets/GoogleIcon.svg';
 
 export default function Login(){
     return (
@@ -26,7 +27,7 @@ export default function Login(){
             <div className="o-Buttons">
                 <button>Ingresar</button>
                 <button>Registrar</button>
-                <button>Entrar con Google</button>
+                <button id="btnGoogle"><img src={Img2} alt="imagen" className="o-GoogleIcon"></img>Entrar con Google</button>
             </div>
 
         </div>

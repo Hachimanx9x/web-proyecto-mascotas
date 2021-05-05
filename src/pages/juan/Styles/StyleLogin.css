@@ -4,6 +4,14 @@
 }
 
 .o-LoginImage{
+    background-color: #4587FF;
+}
+
+.o-LoginImage img{
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 80%;
+    padding-top: 36%;
 }
 
 .o-Login{
@@ -31,4 +39,21 @@ form label{
 
 .o-Buttons button {
     margin: 0.5rem;
+    background-color: #4587FF;
+    color: white;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+}
+
+.o-Buttons #btnGoogle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.o-GoogleIcon{
+    width: 25%;
 }
