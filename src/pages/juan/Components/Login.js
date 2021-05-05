@@ -4,12 +4,13 @@ import Img from '../Assets/Perros.svg';
 
 export default function Login(){
     return (
-        <div className="LoginContainer">
+    <div className="o-LoginContainer">
+
         <div className="o-LoginImage">
             <img src={Img} alt="imagen" className="o-LoginImage"></img>
         </div>
         
-        <div className="o-LoginContainer">
+        <div className="o-Login">
             <h2>Iniciar sesión</h2>
 
             <div className="o-CamposContainer">
@@ -22,7 +23,7 @@ export default function Login(){
                 </form>
             </div>
 
-            <div className="o-Butons">
+            <div className="o-Buttons">
                 <button>Ingresar</button>
                 <button>Registrar</button>
                 <button>Entrar con Google</button>

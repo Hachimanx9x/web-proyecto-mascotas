@@ -1,0 +1,34 @@
+.o-LoginContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.o-LoginImage{
+}
+
+.o-Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.o-CamposContainer form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15rem;
+}
+
+form label{
+    padding: 1rem 0;
+}
+
+.o-Buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 3rem 0 3rem;
+}
+
+.o-Buttons button {
+    margin: 0.5rem;
+}
