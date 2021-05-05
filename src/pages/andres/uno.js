@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import "./Assets/css/banner.css";
 import "./Assets/css/card.css";
+import "./Assets/css/objetivos.css";
 
 function App() {
   return (

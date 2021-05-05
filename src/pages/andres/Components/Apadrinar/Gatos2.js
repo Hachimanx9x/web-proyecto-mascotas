@@ -1,6 +1,6 @@
-function Gatos(props){
+function Gatos2(props){
     return(
-        <div className="Card3">
+        <div className="Card4">
             <img src={props.img} alt="cat"/>
             <div className="apadrinar-body">
                 <h4>{props.text}</h4>
@@ -11,4 +11,4 @@ function Gatos(props){
     );
 }
 
-export default Gatos;
+export default Gatos2;
