@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/StyleMaltrato.css";
 import Img from "../Assets/perroBanner.svg";
 import Img2 from "../Assets/Evidencias.svg";
+import Img3 from "../Assets/subir.svg";
 
 //componentes
 import { Footer, Nav } from "../../diego/components/Components";
@@ -73,6 +74,7 @@ export default function Maltrato() {
 
             <FormularioReporte
                 perfilimg={Img2}
+                icon={Img3}
                 colorboton="#22262A"
                 titulo={states.Formulario.titulo}
                 texto={states.Formulario.texto}

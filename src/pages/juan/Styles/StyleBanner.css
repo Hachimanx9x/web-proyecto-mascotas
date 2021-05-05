@@ -2,3 +2,14 @@
     display: flex;
     color: white
 }
+
+.o-HeaderContainer img{
+    min-width: 45%;
+}
+
+.o-Text #description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+}

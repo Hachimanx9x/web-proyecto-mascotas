@@ -10,17 +10,66 @@
     justify-content: center;
 }
 
-.o-ImgContainer img{
+.o-ImgContainer{
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.o-ImgContainer .o-Image{
     max-width: 70%;
     max-height: 70%;
-    padding: 1rem;
-    text-align: center;
+}
+
+.o-ImgContainer #addfileIcon{
+    max-width: 15%;
+    max-height: 15%;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .o-Infopet{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.o-Form{
+    display: flex;
+    padding: 0 20rem 0 20rem;
+    justify-content: space-around;
+}
+
+.o-Form label {
+    padding: 1rem 0;
+}
+
+.o-Left{
+    display: flex;
+    flex-direction: column;
+}
+
+.o-Rigth{
+    display: flex;
+    flex-direction: column;
+}
+
+.o-Description{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 25rem;
+}
+
+.o-Description textarea{
+    min-width: 32.5rem;
+    background-color: rgb(190, 190, 190);
+}
+
+.o-Description label{
+    padding-bottom: 1rem;
+}
+
+.o-Description button{
+    color: white;
 }
