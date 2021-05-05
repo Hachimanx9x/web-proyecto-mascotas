@@ -23,8 +23,8 @@ const Footer = () => (
             </div>
             </div>
             <div className="ig-contacto-cont">
-                <img src={SvgFace} alt />
-                <img src={SvgInstagram} alt />
+                <img src={SvgFace} alt="dsad" />
+                <img src={SvgInstagram} alt="asdasd" />
             </div>
 
             

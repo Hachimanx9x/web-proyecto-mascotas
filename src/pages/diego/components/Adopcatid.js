@@ -1,9 +1,9 @@
 //img
-import Back from "../assets/fondo adop.png";
-import Dog from "../assets/Perros.png";
-import Do from "../assets/perro.jpg";
+import Back from "../assets/backcat.png";
+import Dog from "../assets/cat.png";
+import Ga from "../assets/gato.jpg";
 //components
-import { Carousel, Banner, Footer, Nav, Form } from "./Components";
+import { Carousel, Banner, Footer, Nav, Info } from "./Components";
 //Material UI
 import Container from "@material-ui/core/Container";
 export default function AdopDog() {
@@ -46,70 +46,46 @@ export default function AdopDog() {
       },
     ],
 
-    perros: [
+    gatos: [
       {
         id: 12,
-        nombre: "perro",
+        nombre: "Gato",
         descripcion:
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
-        img: Do,
-        url: "/diego/perro",
+        img: Ga,
+        url: "/diego/gato",
       },
       {
         id: 22,
-        nombre: "perro",
+        nombre: "Gato",
         descripcion:
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
-        img: Do,
-        url: "/diego/perro",
+        img: Ga,
+        url: "/diego/gato",
       },
       {
-        id: 14,
-        nombre: "perro",
+        id: 32,
+        nombre: "Gato",
         descripcion:
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
-        img: Do,
-        url: "/diego/perro",
+        img: Ga,
+        url: "/diego/gato",
       },
       {
-        id: 34,
-        nombre: "perro",
+        id: 42,
+        nombre: "Gato",
         descripcion:
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
-        img: Do,
-        url: "/diego/perro",
+        img: Ga,
+        url: "/diego/gato",
       },
       {
-        id: 44,
-        nombre: "perro",
+        id: 43,
+        nombre: "Gato",
         descripcion:
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
-        img: Do,
-        url: "/diego/perro",
-      },
-      {
-        id: 54,
-        nombre: "perro",
-        descripcion:
-          "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
-        img: Do,
-        url: "/diego/perro",
-      },
-      {
-        id: 74,
-        nombre: "perro",
-        descripcion:
-          "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
-        img: Do,
-        url: "/diego/perro",
-      },
-      {
-        id: 114,
-        nombre: "perro",
-        descripcion:
-          "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
-        img: Do,
-        url: "/diego/perro",
+        img: Ga,
+        url: "/diego/gato",
       },
     ],
     infobanner: {
@@ -119,7 +95,7 @@ export default function AdopDog() {
     },
 
     form: {
-      img: Do,
+      img: Ga,
       data: {
         name: "juan",
         sex: "Hembra",
@@ -131,23 +107,18 @@ export default function AdopDog() {
       },
       url: "/diego/perro/adop",
     },
+    appointment: {
+      msj: "5/05/2021 de 10am a 12pm",
+      yields: "Centrar",
+    },
   };
   return (
     <div>
       <Nav menu={state.menu} />
-      <Banner
-        imgbanner={Back}
-        pet={Dog}
-        info={state.infobanner}
-        direction="left"
-      />
+      <Banner imgbanner={Back} pet={Dog} info={state.infobanner} />
       <Container maxWidth="xl" className="o-container">
-        <Carousel title="juan" pets={state.perros} />
-        <Form
-          img={state.form.img}
-          data={state.form.data}
-          url={state.form.url}
-        />
+        <Carousel title="juan" pets={state.gatos} />
+        <Info pet={state.form} data={state.appointment} />
       </Container>
       <Footer />
     </div>

@@ -1,4 +1,4 @@
-export default function Adopt({ imgbanner, info }) {
+export default function Banner({ imgbanner, info }) {
     return (
       <div className="o-container-banner">
         <div className="o-container-banner-info">

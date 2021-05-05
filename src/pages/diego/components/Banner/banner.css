@@ -13,9 +13,7 @@
   justify-content: space-between;
   align-items: flex-end;
 }
-.o-container-banner-info img {
-  width: 40%;
-}
+
 .o-container-banner-info .o-banner-info {
   margin-left: 3rem;
   transform: translateY(-50%);
