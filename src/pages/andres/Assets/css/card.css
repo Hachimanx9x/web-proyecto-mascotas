@@ -71,3 +71,28 @@ border-radius: 2rem 2rem 0rem 0rem ;
 width: 100%;
 border-radius: 2rem 2rem 0rem 0rem ;
 }
+
+.Gatos2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:  center;
+}
+
+
+.Card4{
+  width: 20rem;
+  margin: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 0 2px 4px 0;
+  border-radius: 2rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.Card4 img{
+width: 100%;
+border-radius: 2rem 2rem 0rem 0rem ;
+}

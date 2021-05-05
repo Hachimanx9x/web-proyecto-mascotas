@@ -14,6 +14,7 @@ import BannerA from "../Inicio/Banner";
 import Card from "./Perros";
 import Card2 from "./Perros2";
 import Card3 from "./Gatos";
+import Card4 from "./Gatos2";
 
 function Apadrinar(){
   
@@ -110,6 +111,13 @@ function Apadrinar(){
               }} direction="right" />
 
             <div className="Gatos">
+              {array.map((ele, i) => (
+                <Card3 key={i} img={gato2} text={ele}/>
+              ))}
+
+            </div>
+
+            <div className="Gatos2">
               {array.map((ele, i) => (
                 <Card3 key={i} img={gato2} text={ele}/>
               ))}

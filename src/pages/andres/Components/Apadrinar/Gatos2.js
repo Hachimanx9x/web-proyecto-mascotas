@@ -1,14 +1,14 @@
-function Objetivos(props){
+function Gatos2(props){
     return(
-        <div className="Objetivos">
-            
+        <div className="Card4">
             <img src={props.img} alt="cat"/>
             <div className="apadrinar-body">
                 <h4>{props.text}</h4>
 
             </div>
+
         </div>
     );
 }
 
-export default Objetivos;
+export default Gatos2;

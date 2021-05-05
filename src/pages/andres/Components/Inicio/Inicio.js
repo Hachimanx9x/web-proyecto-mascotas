@@ -1,13 +1,21 @@
 
 //import imagenes
 import BannerDoggo from "../../Assets/bannerdoggo.png";
+import gato2 from "../../Assets/cat.png"
+import doggo from "../../Assets/bannerdog.png";
 
 //import componentes
 import Header from "./Header";
 import Footer from "./Footer";
 import Banner from "./Banner";
+import Objetivos from "./Objetivos";
+import Banner2 from "./Banner2";
 
 function Inicio(){
+
+    const array=[ 
+                "Crear conciencia social en la comunidad  sobre la tenencia responsable de mascotas.", 
+                  "Crear conciencia social en la comunidad  sobre la tenencia responsable de mascotas."];
 
     let state = {
        
@@ -77,6 +85,20 @@ function Inicio(){
             info={state.infobanner} 
 
         />
+
+        <div className="OBJ">
+              {array.map((ele, i) => (
+                <Objetivos key={i} img={gato2} text={ele}/>
+              ))}
+
+        </div>
+
+        <Banner2 
+            imgbanner2={doggo} 
+            
+
+        />
+
         <Footer
             numbers={state.footer.numero}
             email={state.footer.email}
