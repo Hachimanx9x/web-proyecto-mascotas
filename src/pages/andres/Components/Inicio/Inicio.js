@@ -10,12 +10,13 @@ import Footer from "./Footer";
 import Banner from "./Banner";
 import Objetivos from "./Objetivos";
 import Banner2 from "./Banner2";
+import {Map} from "../../../diego/components/Components";
 
 function Inicio(){
 
     const array=[ 
                 "Crear conciencia social en la comunidad  sobre la tenencia responsable de mascotas.", 
-                  "Crear conciencia social en la comunidad  sobre la tenencia responsable de mascotas."];
+                  "Proteger y defender a los animales maltratados y/o abandonados, brindándoles en nuestro centro de adopción, un hogar de paso."];
 
     let state = {
        
@@ -98,6 +99,8 @@ function Inicio(){
             
 
         />
+
+        <Map/>
 
         <Footer
             numbers={state.footer.numero}
