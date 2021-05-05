@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/StyleLogin.css";
-import Img from "../Assets/Perros.svg";
-import Img2 from "../Assets/Perros.svg";
+import Img from "../Assets/Evidencias.svg";
+import Img2 from "../Assets/perroBanner.svg";
 
 import { Footer, Nav } from "../../diego/components/Components";
 import Banner from "../Components/Banner";
@@ -65,20 +65,20 @@ export default function Perdida() {
 
       <Banner
         perro={Img}
-        fondo="#22262A"
+        fondo="#FF5645"
         titulo={states.Banner.titulo}
         texto={states.Banner.texto}
       />
 
       <FormularioReporte
         perfilimg={Img2}
-        colorboton="#22262A"
+        colorboton="#FF5645"
         titulo={states.Formulario.titulo}
         texto={states.Formulario.texto}
       />
 
       <Footer></Footer>
-      
+
     </div>
   );
 }

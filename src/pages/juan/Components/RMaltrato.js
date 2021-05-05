@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/StyleMaltrato.css";
-import Img from "../Assets/Perros.svg";
-import Img2 from "../Assets/Perros.svg";
+import Img from "../Assets/perroBanner.svg";
+import Img2 from "../Assets/Evidencias.svg";
 
 //componentes
 import { Footer, Nav } from "../../diego/components/Components";
@@ -17,7 +17,7 @@ export default function Maltrato() {
             "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.",
         },
         Formulario: {
-          titulo: "Reporte de maltrato",
+          titulo: "Formulario de maltrato",
           texto: "¡Gracias por ayudarnos a denunciar!",
         },
         menu: [
@@ -66,14 +66,14 @@ export default function Maltrato() {
 
             <Banner
                 perro={Img}
-                fondo="#FF5645"
+                fondo="#22262A"
                 titulo={states.Banner.titulo}
                 texto={states.Banner.texto}
             />
 
             <FormularioReporte
                 perfilimg={Img2}
-                colorboton="#FF5645"
+                colorboton="#22262A"
                 titulo={states.Formulario.titulo}
                 texto={states.Formulario.texto}
             />

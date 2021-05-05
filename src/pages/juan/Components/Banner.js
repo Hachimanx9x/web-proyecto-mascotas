@@ -7,8 +7,11 @@ export default function Banner({perro, fondo, titulo, texto}){
             <div className="o-HeaderContainer" style={{backgroundColor:fondo}}>
                 <img src={perro} alt="imagen" className="o-LoginImage"></img>
 
-                <h2>{titulo}</h2>
-                <p>{texto}</p>
+                <div>
+                    <h2>{titulo}</h2>
+                    <p>{texto}</p>
+                </div>
+
             </div>
         </div>
     );
