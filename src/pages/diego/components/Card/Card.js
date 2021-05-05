@@ -21,7 +21,7 @@ const useStyles = makeStyles({
     height: 140,
     width: 140,
     borderRadius: 150,
-    transform: "translateX(30%)",
+    transform: "translateX(40%)",
   },
 });
 

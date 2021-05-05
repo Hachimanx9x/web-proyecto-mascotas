@@ -131,6 +131,10 @@ export default function AdopDog() {
       },
       url: "/diego/perro/adop",
     },
+    appointment: {
+      msj: "5/05/2021 de 10am a 12pm",
+      yields: "Centrar",
+    },
   };
   return (
     <div>
@@ -138,7 +142,7 @@ export default function AdopDog() {
       <Banner imgbanner={Back} pet={Dog} info={state.infobanner} />
       <Container maxWidth="xl" className="o-container">
         <Carousel title="juan" pets={state.perros} />
-        <Info pet={state.form} />
+        <Info pet={state.form} data={state.appointment} />
       </Container>
       <Footer />
     </div>

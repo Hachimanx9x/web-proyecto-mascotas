@@ -1,6 +1,7 @@
 import Pet from "./pet";
 import Map from "./Map";
 import Grid from "@material-ui/core/Grid";
+import DatePoint from "./PointDate";
 import "./info.css";
 export default function info({ pet, data }) {
   return (
@@ -16,6 +17,16 @@ export default function info({ pet, data }) {
             className="o-map"
             point={[3.353928, -76.5235276]}
           />
+          {data ? (
+            <DatePoint
+              className="o-pet-id"
+              hour="10 A.M. a 6 P.M."
+              appointment={data}
+              address="Calle 1 con carrera 7"
+            />
+          ) : (
+            <DatePoint className="o-pet-id" hour="10 A.M. a 6 P.M." />
+          )}
         </Grid>
       </div>
     </div>
