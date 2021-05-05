@@ -5,32 +5,39 @@ export default function Formulario({titulo, texto, perfilimg, colorboton}){
     return(
         <div>
             <div className="o-FormContainer">
-                <h2>{titulo}</h2>
-                <label>{texto}</label>
 
-                <img src={perfilimg} alt="imagen" className="o-Image"></img>
-                <img src="" alt="imagen" className="o-Image"></img>
-                <img src="" alt="imagen" className="o-Image"></img>
-
-                <div className="o-Infopet">
-                    <label>Especie *</label>
-                    <select className="o-Species o-Text" id="Species">
-                        <option></option>
-                        <option>Gato</option>
-                        <option>Perro</option>
-                        <option>Otro</option>
-                    </select>
-
-                    <label>Raza *</label>
-                    <select className="o-Species o-Text" id="Species">
-                        <option></option>
-                        <option>Criollo</option>
-                        <option>Sabueso fino colombiano</option>
-                        <option>Golden</option>
-                    </select>
+                <div className="o-TitleContainer">
+                    <h2>{titulo}</h2>
+                    <label>{texto}</label>
                 </div>
 
-                <div>
+                <div className="o-SelectContainer">
+                    <div className="o-ImgContainer">
+                        <img src={perfilimg} alt="imagen" className="o-Image"></img>
+                        <img src="" alt="imagen" className="o-Image"></img>
+                    </div>
+                
+
+                    <div className="o-Infopet">
+                        <label>Especie *</label>
+                        <select className="o-Species o-Text" id="Species">
+                            <option></option>
+                            <option>Gato</option>
+                            <option>Perro</option>
+                            <option>Otro</option>
+                        </select>
+
+                        <label>Raza *</label>
+                        <select className="o-Species o-Text" id="Species">
+                            <option></option>
+                            <option>Criollo</option>
+                            <option>Sabueso fino colombiano</option>
+                            <option>Golden</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div className="o-Form">
                     <label>Fecha de hallazgo (D / M / A) *:</label>
                     <input type="date" className="o-Text" id="Fecha"></input>
 

@@ -1,0 +1,26 @@
+.o-TitleContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.o-SelectContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.o-ImgContainer img{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    max-height: 70%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.o-Infopet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
