@@ -7,7 +7,7 @@
     min-width: 45%;
 }
 
-.o-Text #description{
+div#description {
     display: flex;
     flex-direction: column;
     justify-content: center;

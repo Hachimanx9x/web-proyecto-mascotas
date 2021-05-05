@@ -1,7 +1,8 @@
 import React from "react";
-import "../Styles/StyleLogin.css";
-import Img from "../Assets/Evidencias.svg";
-import Img2 from "../Assets/perroBanner.svg";
+import "../Styles/StylePerdida.css";
+import Img from "../Assets/perroBanner.svg";
+import Img2 from "../Assets/Evidencias.svg";
+import Img3 from "../Assets/subir.svg";
 
 import { Footer, Nav } from "../../diego/components/Components";
 import Banner from "../Components/Banner";
@@ -61,23 +62,24 @@ export default function Perdida() {
   return (
     <div className="o-PerdidaContainer">
 
-      <Nav menu={states.menu}> </Nav>
+        <Nav menu={states.menu}> </Nav>
 
-      <Banner
-        perro={Img}
-        fondo="#FF5645"
-        titulo={states.Banner.titulo}
-        texto={states.Banner.texto}
-      />
+        <Banner
+            perro={Img}
+            fondo="#FF5645"
+            titulo={states.Banner.titulo}
+            texto={states.Banner.texto}
+        />
 
-      <FormularioReporte
-        perfilimg={Img2}
-        colorboton="#FF5645"
-        titulo={states.Formulario.titulo}
-        texto={states.Formulario.texto}
-      />
+        <FormularioReporte
+            perfilimg={Img2}
+            icon={Img3}
+            colorboton="#FF5645"
+            titulo={states.Formulario.titulo}
+            texto={states.Formulario.texto}
+        />
 
-      <Footer></Footer>
+        <Footer ></Footer>
 
     </div>
   );

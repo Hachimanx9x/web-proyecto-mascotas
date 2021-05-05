@@ -62,7 +62,8 @@
 }
 
 .o-Description textarea{
-    min-width: 32.5rem;
+    min-width: 30rem;
+    min-height: 10rem;
     background-color: rgb(190, 190, 190);
 }
 
@@ -70,6 +71,24 @@
     padding-bottom: 1rem;
 }
 
-.o-Description button{
+.o-SendForm{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.o-SendForm button{
     color: white;
+    border: none;
+    height: 3rem;
+    width: 8rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+#textArea{
+    margin-right: 0;
 }

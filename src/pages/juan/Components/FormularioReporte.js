@@ -76,9 +76,11 @@ export default function Formulario({titulo, texto, perfilimg, icon, colorboton})
 
                 <div className="o-Description">
                     <label>Descripción: *</label>
-                    <textarea type="text"></textarea>
 
-                    <button style={{backgroundColor:colorboton}}>Enviar</button>
+                    <div className="o-SendForm">
+                        <textarea type="text" id="textArea"></textarea>
+                        <button style={{backgroundColor:colorboton}}>Enviar</button>
+                    </div>
 
                 </div>
 
