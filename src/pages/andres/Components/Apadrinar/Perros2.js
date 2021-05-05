@@ -1,7 +1,7 @@
-function Gatos(props){
+function Perros2(props){
     return(
-        <div className="Card3">
-            <img src={props.img} alt="cat"/>
+        <div className="Card2">
+            <img src={props.img} alt="Doggo"/>
             <div className="apadrinar-body">
                 <h4>{props.text}</h4>
 
@@ -11,4 +11,4 @@ function Gatos(props){
     );
 }
 
-export default Gatos;
+export default Perros2;
