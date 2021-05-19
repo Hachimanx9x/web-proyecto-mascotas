@@ -64,6 +64,8 @@ body{
 
 /* Perfil de usuario ************************ */
 
+
+
 .ig-datos-usuario{
     display: flex;
     flex-direction: column;
@@ -100,14 +102,21 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 1rem 0 0;
+    padding: 0;
+}
+
+
+.ig-cont-cardpumascotas{
     margin: 0;
     padding: 0;
+    background-color: #FF5645;
 }
 
 .ig-info-usuario{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .ig-info-card{
@@ -123,16 +132,33 @@ body{
 
 
 .ig-cont-mascotasusarios{
+  
     display: flex;
     flex-direction: column;
+    justify-content: left;
     align-items: center;
 }
 
+.ig-cont-mascotasu{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+button.slick-arrow{
+    color: black;
+}
+
+
 /**************************** Carrusel *******************************/
-div.slick-slide.slick-active.slick-current{
-    width: 50%;
+/*div.slick-slide.slick-active.slick-current{
+    width:50%;
 }
 .ig-div-carrusel{
     background-color: green;
     width: 50%;
 }
+
+.slick-slide.slick-cloned{
+    width: 222px;
+}*/

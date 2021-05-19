@@ -4,6 +4,9 @@ import CardPU from "./CardPU";
 import Pelos from "../../assets/img/pelos.png"
 import Avatar from "../../assets/svg/avatar/avatarperro.svg"
 import Huella from "../../assets/img/huella1.png"
+import Carrusel from "./Carrusel";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./stylecomponetsGlobal.css"
 
 
@@ -67,17 +70,21 @@ export default function PerfilUsuario ({nomusuario,avatar,altavatar}) {
                  </h4>
             </div>
             <div className="ig-cont-mascotasusarios">
-                <div>
-                <h3>Mascotas Apadrinadas:</h3>
-                <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
+                <div >
+                 <Carrusel />
                 </div>
                 <div>
                 <h3>Mascotas Registradas:</h3>
+                <div className="ig-cont-mascotasu">
+                <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
                 <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
                 </div>
+                </div >
                 <div>
                 <h3>Mascotas Adoptadas:</h3>
+                <div className="ig-cont-mascotasu">
                 <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
+                </div>
                 </div>
             </div>
                 
