@@ -54,6 +54,7 @@ export default function AdopDog() {
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
         img: Do,
         url: "/diego/perro",
+        urla: "/diego/perro/adop",
       },
       {
         id: 22,
@@ -62,6 +63,7 @@ export default function AdopDog() {
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
         img: Do,
         url: "/diego/perro",
+        urla: "/diego/perro/adop",
       },
       {
         id: 14,
@@ -70,6 +72,7 @@ export default function AdopDog() {
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
         img: Do,
         url: "/diego/perro",
+        urla: "/diego/perro/adop",
       },
       {
         id: 34,
@@ -78,6 +81,7 @@ export default function AdopDog() {
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
         img: Do,
         url: "/diego/perro",
+        urla: "/diego/perro/adop",
       },
       {
         id: 44,
@@ -86,6 +90,7 @@ export default function AdopDog() {
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
         img: Do,
         url: "/diego/perro",
+        urla: "/diego/perro/adop",
       },
       {
         id: 54,
@@ -94,6 +99,7 @@ export default function AdopDog() {
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
         img: Do,
         url: "/diego/perro",
+        urla: "/diego/perro/adop",
       },
       {
         id: 74,
@@ -102,6 +108,7 @@ export default function AdopDog() {
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
         img: Do,
         url: "/diego/perro",
+        urla: "/diego/perro/adop",
       },
       {
         id: 114,
@@ -110,12 +117,12 @@ export default function AdopDog() {
           "Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. ",
         img: Do,
         url: "/diego/perro",
+        urla: "/diego/perro/adop",
       },
     ],
     infobanner: {
       title: "Centro de adopción de mascotas",
-      body:
-        "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas 'Letraset', las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      body: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas 'Letraset', las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
     },
 
     form: {
