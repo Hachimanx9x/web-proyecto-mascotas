@@ -37,8 +37,8 @@
 
 .o-Form{
     display: flex;
-    padding: 0 20rem 0 20rem;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: center;
 }
 
 .o-Form label {
@@ -48,11 +48,13 @@
 .o-Left{
     display: flex;
     flex-direction: column;
+    padding: 0 2.5rem 2.5rem 0;
 }
 
 .o-Rigth{
     display: flex;
     flex-direction: column;
+    padding: 0 2.5rem 2.5rem 0;
 }
 
 .o-Description{
