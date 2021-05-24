@@ -11,6 +11,7 @@ h2{font-weight: bold;}
     background-color: #4587FF;
     height: 100vh;
     box-sizing: border-box;
+    width: 90%;
 }
 
 .o-LoginImage img{

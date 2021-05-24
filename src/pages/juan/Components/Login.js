@@ -20,7 +20,7 @@ export default function Login(){
                     <input type="text" id="UserName" name="username" placeholder="username"></input>
 
                     <label>Contraseña: *</label>
-                    <input type="text" id="Password" name="password" placeholder="password"></input>
+                    <input type="password" id="Password" name="password" placeholder="password"></input>
                 </form>
             </div>
 
