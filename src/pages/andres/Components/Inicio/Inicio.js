@@ -96,7 +96,7 @@ function Inicio(){
       
 
         <div className="flex-container"
-          style={{display:"flex", flexDirection: "row", width: "100vw", alignItems: "center"}}
+          style={{display:"flex", flexDirection: "row", width: "100%", alignItems: "center"}}
           >
           <Map
             width= "70rem"
