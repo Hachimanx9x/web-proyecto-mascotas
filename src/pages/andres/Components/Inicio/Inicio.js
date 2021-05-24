@@ -96,14 +96,14 @@ function Inicio(){
       
 
         <div className="flex-container"
-          style={{display:"flex", flexDirection: "row", width: "100%", alignItems: "center"}}
+          style={{display:"flex", flexDirection: "row", width: "100%", alignItems: "center", justifyContent:"center"}}
           >
           <Map
             width= "70rem"
             height="25rem"
           />
           
-          <div style= {{ width: "100%", display:"flex", flexDirection:"row", alignItems:"center"}}>
+          <div style= {{ width: "25rem", display:"flex", flexDirection:"row", alignItems:"center", justifyContent:"center"}}>
         <DataPoint
             DatePoint className="o-pet-id" 
             hour="10 A.M. a 6 P.M." 
