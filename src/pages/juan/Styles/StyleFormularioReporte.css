@@ -60,7 +60,9 @@
 .o-Description{
     display: flex;
     flex-direction: column;
-    padding: 1rem 25rem;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
 }
 
 .o-Description textarea{
@@ -71,6 +73,7 @@
 
 .o-Description label{
     padding-bottom: 1rem;
+    width: 680px;
 }
 
 .o-SendForm{
@@ -79,6 +82,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    width: 680px;
 }
 
 .o-SendForm button{
