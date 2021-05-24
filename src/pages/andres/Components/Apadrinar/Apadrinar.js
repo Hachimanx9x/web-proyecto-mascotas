@@ -125,14 +125,14 @@ function Apadrinar(){
             </div>
 
             <div className="flex-container"
-          style={{display:"flex", flexDirection: "row", width: "100%", alignItems: "center"}}
+          style={{display:"flex", flexDirection: "row", width: "100vw", alignItems: "center"}}
         >
         <Map
           width= "70rem"
           height="25rem"
         />
         
-        <div style= {{ width: "25rem"}}>
+        <div style= {{ width: "100%", display:"flex", flexDirection:"row", alignItems:"center"}}>
         <DataPoint
             DatePoint className="o-pet-id" 
             hour="10 A.M. a 6 P.M." 
