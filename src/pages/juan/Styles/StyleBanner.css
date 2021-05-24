@@ -1,10 +1,12 @@
 .o-HeaderContainer{
     display: flex;
-    color: white
+    color: white;
+    
 }
 
 .o-HeaderContainer img{
     min-width: 45%;
+    height: 10%;
 }
 
 div#description {
