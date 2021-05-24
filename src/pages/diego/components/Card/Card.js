@@ -25,9 +25,11 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard({ img, name, description, url }) {
+export default function MediaCard({ img, name, description, url, urla }) {
   const classes = useStyles();
-
+  if (urla === undefined) {
+    urla = "#";
+  }
   return (
     <div className="o-card">
       <Card className={classes.root}>
@@ -52,7 +54,7 @@ export default function MediaCard({ img, name, description, url }) {
           </CardContent>
         </CardActionArea>
         <CardActions className="o-card-space-buttons" disableSpacing={false}>
-          <Button href="#" className="o-card-button-a" size="small">
+          <Button href={urla} className="o-card-button-a" size="small">
             Adoptar
           </Button>
           <Button href={url} className="o-card-button-b" size="small">

@@ -39,7 +39,12 @@ export default function Form({ img, data, url }) {
             <p>{data.character}</p>
           </fieldset>
           <div className="o-form-active">
-            <Button className="o-button" variant="contained" color="primary">
+            <Button
+              className="o-button"
+              variant="contained"
+              color="primary"
+              href={url}
+            >
               Adoptar
             </Button>
           </div>

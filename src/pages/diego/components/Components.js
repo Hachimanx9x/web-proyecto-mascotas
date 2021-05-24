@@ -6,4 +6,5 @@ import Nav from "./Nav/nav";
 import Form from "./FormPet/Form";
 import Info from "./InfoPet/Info";
 import Map from "./InfoPet/Map";
-export { Banner, Card, Carousel, Footer, Nav, Form, Info, Map };
+import DataPoint from "./InfoPet/PointDate";
+export { Banner, Card, Carousel, Footer, Nav, Form, Info, Map, DataPoint };

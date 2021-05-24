@@ -9,8 +9,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Banner from "./Banner";
 import Objetivos from "./Objetivos";
-import Banner2 from "./Banner2";
-import {Map} from "../../../diego/components/Components";
+import {Map, DataPoint} from "../../../diego/components/Components";
 
 function Inicio(){
 
@@ -66,7 +65,7 @@ function Inicio(){
        
         footer: {
             numero: "123456789",
-            email: "corre@gmail.com",
+            email: "correo@gmail.com",
             redso: [
               { red: "Facebook", url: "#" },
               { red: "Instagram", url: "#" },
@@ -94,13 +93,26 @@ function Inicio(){
 
         </div>
 
-        <Banner2 
-            imgbanner2={doggo} 
-            
+      
+
+        <div className="flex-container"
+          style={{display:"flex", flexDirection: "row"}}
+        >
+        <Map
+          width= "70rem"
+          height="25rem"
+        />
+        
+        <div style= {{ width: "25rem"}}>
+        <DataPoint
+            DatePoint className="o-pet-id" 
+            hour="10 A.M. a 6 P.M." 
+
+            address="Calle 1 con carrera 7"
 
         />
-
-        <Map/>
+        </div>
+        </div>
 
         <Footer
             numbers={state.footer.numero}
