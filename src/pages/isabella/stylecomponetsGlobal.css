@@ -105,7 +105,10 @@ body{
     margin: 0 1rem 0 0;
     padding: 0;
 }
-
+.ig-div-mascotascard-cont{
+    justify-content: left;
+    text-align: left;
+}
 
 .ig-cont-cardpumascotas{
     margin: 0;

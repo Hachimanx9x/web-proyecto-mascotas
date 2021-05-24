@@ -73,16 +73,19 @@ export default function PerfilUsuario ({nomusuario,avatar,altavatar}) {
                 <div >
                  <Carrusel />
                 </div>
-                <div>
+                <div className="ig-div-mascotascard-cont">
                 <h3>Mascotas Registradas:</h3>
                 <div className="ig-cont-mascotasu">
                 <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
                 <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
+                <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
                 </div>
                 </div >
-                <div>
+                <div className="ig-div-mascotascard-cont">
                 <h3>Mascotas Adoptadas:</h3>
                 <div className="ig-cont-mascotasu">
+                <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
+                <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
                 <CardPU nommascota="Pelos" imgmascota={Pelos} altmascota="imagen del perro pelos" colorfondocard="#FF5645"/>
                 </div>
                 </div>
