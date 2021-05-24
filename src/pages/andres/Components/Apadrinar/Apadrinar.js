@@ -7,7 +7,7 @@ import gato2 from "../../Assets/cat.png"
 import fondo from "../../Assets/fondo.png";
 
 //import componentes
-import {Nav, Banner, Map} from "../../../diego/components/Components";
+import {Nav, Banner, Map, DataPoint} from "../../../diego/components/Components";
 import Footer from "../Inicio/Footer";
 import BannerA from "../Inicio/Banner";
 
@@ -124,7 +124,24 @@ function Apadrinar(){
 
             </div>
 
-            <Map/>
+            <div className="flex-container"
+          style={{display:"flex", flexDirection: "row"}}
+        >
+        <Map
+          width= "70rem"
+          height="25rem"
+        />
+        
+        <div style= {{ width: "25rem"}}>
+        <DataPoint
+            DatePoint className="o-pet-id" 
+            hour="10 A.M. a 6 P.M." 
+
+            address="Calle 1 con carrera 7"
+
+        />
+        </div>
+        </div>
 
             <Footer
                 numbers={state.footer.numero}
