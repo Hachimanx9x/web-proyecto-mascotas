@@ -18,7 +18,7 @@ const Cuenta = () => (
            <input className="i-caja-texto"  type="text" name="correo" id="correou" />
 
            <label  className="i-texto-datos"  for="fnombre">Contraseña <a href="./">*</a>:</label>
-           <input className="i-caja-texto"  type="text" name="contraseña" id="contraseñau" />  
+           <input className="i-caja-texto"  type="password" name="contraseña" id="contraseñau" />  
            <p>Asegúrese de que tenga al menos 15 caracteres O al menos 8 caracteres, incluido un número y una letra minúscula.</p>
 
            <div className="i-btn-seleccion">
