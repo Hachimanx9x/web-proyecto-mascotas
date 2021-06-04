@@ -1,8 +1,11 @@
 
 //import imagenes
 import BannerDoggo from "../../Assets/bannerdoggo.png";
-import gato2 from "../../Assets/cat.png"
-import doggo from "../../Assets/bannerdog.png";
+import gato2 from "../../Assets/cat.png";
+import noticia1 from "../../Assets/noticia1.png";
+import noticia2 from "../../Assets/noticia2.png";
+import noticia3 from "../../Assets/noticia3.png";
+
 
 //import componentes
 import Header from "./Header";
@@ -10,12 +13,18 @@ import Footer from "./Footer";
 import Banner from "./Banner";
 import Objetivos from "./Objetivos";
 import {Map, DataPoint} from "../../../diego/components/Components";
+import Noticias from "./Noticias";
 
 function Inicio(){
 
     const array=[ 
                 "Crear conciencia social en la comunidad  sobre la tenencia responsable de mascotas.", 
                   "Proteger y defender a los animales maltratados y/o abandonados, brindándoles en nuestro centro de adopción, un hogar de paso."];
+
+
+
+    const SlideNoticias=[{img: noticia3 }, {img: noticia1}, { img: noticia2}];
+
 
     let state = {
        
@@ -63,6 +72,8 @@ function Inicio(){
               "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas 'Letraset', las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
           },
        
+          
+
         footer: {
             numero: "123456789",
             email: "correo@gmail.com",
@@ -93,7 +104,11 @@ function Inicio(){
 
         </div>
 
-      
+        <div className="Noticias">
+          <Noticias 
+            img={SlideNoticias}
+          />
+        </div>
 
         <div className="flex-container"
           style={{display:"flex", flexDirection: "row", width: "100%", alignItems: "center", justifyContent:"center"}}
