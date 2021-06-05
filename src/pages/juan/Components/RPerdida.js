@@ -22,65 +22,62 @@ export default function Perdida() {
     menu: [
       {
         text: "Inicio",
-        url: "/juan",
+        url: "/",
         active: false,
       },
       {
         text: "Registro",
-        url: "/juan",
+        url: "/isabella/RegistroMascota",
         active: false,
       },
       {
         text: "Adoptar",
-        url: "/juan",
+        url: "/diego/adop",
         active: false,
       },
       {
         text: "Apadrinar",
-        url: "/juan",
+        url: "/andres/apadrinar",
         active: false,
       },
       {
         text: "Reportar",
-        url: "/juan",
+        url: "/juan/Maltrato",
         active: false,
       },
       {
         text: "Perdida",
-        url: "/juan",
+        url: "/juan/Perdida",
         active: true,
       },
       {
         text: "Login",
-        url: "/juan",
+        url: "/juan/Login",
         active: false,
       },
     ],
   };
 
-
   return (
     <div className="o-PerdidaContainer">
+      <Nav menu={states.menu}> </Nav>
 
-        <Nav menu={states.menu}> </Nav>
+      <Banner
+        perro={Img}
+        fondo="#FF5645"
+        titulo={states.Banner.titulo}
+        texto={states.Banner.texto}
+      />
 
-        <Banner
-            perro={Img}
-            fondo="#FF5645"
-            titulo={states.Banner.titulo}
-            texto={states.Banner.texto}
-        />
+      <FormularioReporte
+        perfilimg={Img2}
+        icon={Img3}
+        colorboton="#FF5645"
+        titulo={states.Formulario.titulo}
+        texto={states.Formulario.texto}
+      />
 
-        <FormularioReporte
-            perfilimg={Img2}
-            icon={Img3}
-            colorboton="#FF5645"
-            titulo={states.Formulario.titulo}
-            texto={states.Formulario.texto}
-        />
-
-        <Footer ></Footer>
-
+      <Footer></Footer>
     </div>
   );
 }

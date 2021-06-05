@@ -12,37 +12,37 @@ function Adopt() {
     menu: [
       {
         text: "Inicio",
-        url: "/diego",
+        url: "/",
         active: false,
       },
       {
         text: "Registro",
-        url: "/diego",
+        url: "/isabella/RegistroMascota",
         active: false,
       },
       {
         text: "Adoptar",
-        url: "/diego",
+        url: "/diego/adop",
         active: true,
       },
       {
         text: "Apadrinar",
-        url: "/diego",
+        url: "/andres/apadrinar",
         active: false,
       },
       {
         text: "Reportar",
-        url: "/diego",
+        url: "/juan/Maltrato",
         active: false,
       },
       {
         text: "Perdida",
-        url: "/diego",
+        url: "/juan/Perdida",
         active: false,
       },
       {
         text: "Login",
-        url: "/diego",
+        url: "/juan/Login",
         active: false,
       },
     ],

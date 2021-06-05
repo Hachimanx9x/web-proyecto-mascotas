@@ -7,14 +7,14 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/juan/Maltrato">
-            <Maltrato />
+        <Route exact path="/juan/Maltrato">
+          <Maltrato />
         </Route>
-        <Route path="/juan/Perdida">
-            <Perdida />
+        <Route exact path="/juan/Perdida">
+          <Perdida />
         </Route>
-        <Route path="/juan/Login">
-            <Login />
+        <Route exact path="/juan/Login">
+          <Login />
         </Route>
         <Route path="/">
           <div>

@@ -11,37 +11,37 @@ export default function AdopDog() {
     menu: [
       {
         text: "Inicio",
-        url: "/diego",
+        url: "/",
         active: false,
       },
       {
         text: "Registro",
-        url: "/diego",
+        url: "/isabella/RegistroMascota",
         active: false,
       },
       {
         text: "Adoptar",
-        url: "/diego",
+        url: "/diego/adop",
         active: true,
       },
       {
         text: "Apadrinar",
-        url: "/diego",
+        url: "/andres/apadrinar",
         active: false,
       },
       {
         text: "Reportar",
-        url: "/diego",
+        url: "/juan/Maltrato",
         active: false,
       },
       {
         text: "Perdida",
-        url: "/diego",
+        url: "/juan/Perdida",
         active: false,
       },
       {
         text: "Login",
-        url: "/diego",
+        url: "/juan/Login",
         active: false,
       },
     ],
@@ -114,8 +114,7 @@ export default function AdopDog() {
     ],
     infobanner: {
       title: "Centro de adopción de mascotas",
-      body:
-        "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas 'Letraset', las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      body: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas 'Letraset', las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
     },
 
     form: {

@@ -13,7 +13,7 @@ function App() {
         <Route exact path="/diego/gato/adop" component={Adepcatpet} />
         <Route exact path="/diego/perro" component={Adopdog} />
         <Route exact path="/diego/gato" component={Adopcat} />
-        <Route path="/" component={Principal} />
+        <Route exact path="/diego/adop" component={Principal} />
       </Switch>
     </BrowserRouter>
   );
