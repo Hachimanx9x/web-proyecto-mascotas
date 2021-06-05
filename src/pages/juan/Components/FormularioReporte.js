@@ -19,16 +19,16 @@ export default function Formulario({titulo, texto, perfilimg, icon, colorboton})
                 
 
                     <div className="o-Infopet">
-                        <label>Especie *</label>
-                        <select className="o-Species" id="Species">
+                        <label>Especie <label className="o-Required">*</label></label>
+                        <select className="o-InputText" id="Species">
                             <option></option>
                             <option>Gato</option>
                             <option>Perro</option>
                             <option>Otro</option>
                         </select>
 
-                        <label>Raza *</label>
-                        <select className="o-Species" id="Species">
+                        <label>Raza <label className="o-Required">*</label></label>
+                        <select className="o-InputText" id="Species">
                             <option></option>
                             <option>Criollo</option>
                             <option>Sabueso fino colombiano</option>
@@ -41,12 +41,11 @@ export default function Formulario({titulo, texto, perfilimg, icon, colorboton})
 
                     <div className="o-Left">
 
-                        <label>Fecha de hallazgo (D / M / A) *:</label>
-                        <input type="date" className="o-Text" id="Fecha"></input>
+                        <label>Fecha de hallazgo  <label className="o-Required">(D / M / A)*</label>:</label>
+                        <input type="date" className="o-InputText" id="Fecha"></input>
 
-
-                        <label>Departamento: *</label>
-                        <select className="o-State" id="state">
+                        <label>Departamento: <label className="o-Required">*</label></label>
+                        <select className="o-InputText" id="state">
                             <option>Amazonas</option>
                             <option>Valle del cacua</option>
                             <option>Cauca</option>
@@ -57,25 +56,33 @@ export default function Formulario({titulo, texto, perfilimg, icon, colorboton})
 
                     <div className="o-Rigth">
 
-                        <label>Sexo:</label>
+                        <label>Sexo: <label className="o-Required">*</label></label>
 
                         <div className="o-Sex">
-                            <label>Hembra</label>
-                            <input type="checkbox" id="sex" value="H"></input>
-                            <label>Macho</label>
-                            <input type="checkbox" id="sex" value="M"></input>
+                            <div id="Hembra">
+                                <label>Hembra
+                                <input className="o-InputRadio" type="radio" name="H" id="sex" value="H"></input></label>
+                            </div>
+
+                            <div id="Macho">
+                            <label>Macho
+                            <input className="o-InputRadio" type="radio" name="H" id="sex" value="M"></input></label>
+                            </div>
+
+
                         </div>
 
-
-                        <label>Ciudad: *</label>
-                        <input type="text" className="o-City"></input>
+                        <div className="o-City">
+                            <label>Ciudad: <label className="o-Required">*</label></label>
+                            <input type="text" className="o-InputText"></input>
+                        </div>
 
                     </div>
 
                 </div>
 
                 <div className="o-Description">
-                    <label>Descripción: *</label>
+                    <label>Descripción: <label className="o-Required">*</label></label>
 
                     <div className="o-SendForm">
                         <textarea type="text" id="textArea"></textarea>
