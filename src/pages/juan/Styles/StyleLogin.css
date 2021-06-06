@@ -1,5 +1,6 @@
 *{font-family: "Roboto";}
 h2{font-weight: bold;}
+
 .o-LoginContainer {
     display: flex;
     flex-direction: row;
@@ -27,7 +28,7 @@ h2{font-weight: bold;}
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
     width: 100%;
 }
 
@@ -41,29 +42,39 @@ form label{
     padding: 1rem 0;
 }
 
-.o-Buttons {
+.o-ButtonsContainer {
     display: flex;
     flex-direction: column;
     padding: 4rem 3rem 0 3rem;
+    align-items: center;
 }
 
-.o-Buttons button {
+.o-Button{
     margin: 0.5rem;
     background-color: #4587FF;
     color: white;
     border: none;
     width: 10rem;
     height: 3rem;
+    font-size: 1rem;
 }
 
-.o-Buttons #btnGoogle {
+.o-GoogleButton {
+    margin: 0.5rem;
+    background-color: #4587FF;
+    color: white;
+    border: none;
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
+
     align-items: center;
+    padding: 0.4rem 0.4rem;
+    width: 15rem;
 }
 
 .o-GoogleIcon{
-    width: 25%;
+    width: 20%;
+    justify-content: start;
+    padding: 0 1rem 0 0;
 }

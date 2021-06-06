@@ -17,17 +17,17 @@ export default function Login(){
             <div className="o-CamposContainer">
                 <form>
                     <label>Nombre de usuario: *</label>
-                    <input type="text" id="UserName" name="username" placeholder="username"></input>
+                    <input className="o-InputText" type="text" id="UserName" name="username" placeholder="username"></input>
 
                     <label>Contraseña: *</label>
-                    <input type="password" id="Password" name="password" placeholder="password"></input>
+                    <input className="o-InputText" type="password" id="Password" name="password" placeholder="password"></input>
                 </form>
             </div>
 
-            <div className="o-Buttons">
-                <button>Ingresar</button>
-                <button>Registrar</button>
-                <button id="btnGoogle"><img src={Img2} alt="imagen" className="o-GoogleIcon"></img>Entrar con Google</button>
+            <div className="o-ButtonsContainer">
+                <button className="o-Button">Ingresar</button>
+                <button className="o-Button">Registrar</button>
+                <button className="o-GoogleButton" id="btnGoogle"><img src={Img2} alt="imagen" className="o-GoogleIcon"></img>Entrar con Google</button>
             </div>
 
         </div>
