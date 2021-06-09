@@ -5,12 +5,13 @@ import Img2 from '../Assets/GoogleIcon.svg';
 
 export default function Login(){
     return (
+    <>
     <div className="o-LoginContainer">
 
         <div className="o-LoginImage">
             <img src={Img} alt="imagen" className="o-LoginImage"></img>
         </div>
-        
+
         <div className="o-Login">
             <h2>Iniciar sesión</h2>
 
@@ -25,13 +26,18 @@ export default function Login(){
             </div>
 
             <div className="o-ButtonsContainer">
-                <button className="o-Button">Ingresar</button>
-                <button className="o-Button">Registrar</button>
+                <button className="o-Button"><a href="/andres/inicio">Ingresar</a></button>
+                <button className="o-Button"><a href="/isabella/Cuenta">Registrar</a></button>
                 <button className="o-GoogleButton" id="btnGoogle"><img src={Img2} alt="imagen" className="o-GoogleIcon"></img>Entrar con Google</button>
             </div>
 
         </div>
 
     </div>
+    <style jsx>{` 
+    a{
+        color:#fff;
+    }`}</style>
+    </>
     )
 }

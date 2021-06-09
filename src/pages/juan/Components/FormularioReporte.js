@@ -28,12 +28,7 @@ export default function Formulario({titulo, texto, perfilimg, icon, colorboton})
                         </select>
 
                         <label>Raza <label className="o-Required">*</label></label>
-                        <select className="o-InputText" id="Species">
-                            <option></option>
-                            <option>Criollo</option>
-                            <option>Sabueso fino colombiano</option>
-                            <option>Golden</option>
-                        </select>
+                        <input className="o-InputText" id="Species" type="text"/>
                     </div>
                 </div>
 
@@ -45,12 +40,7 @@ export default function Formulario({titulo, texto, perfilimg, icon, colorboton})
                         <input type="date" className="o-InputText" id="Fecha"></input>
 
                         <label>Departamento: <label className="o-Required">*</label></label>
-                        <select className="o-InputText" id="state">
-                            <option>Amazonas</option>
-                            <option>Valle del cacua</option>
-                            <option>Cauca</option>
-                            <option>Nariño</option>
-                        </select>
+                        <input className="o-InputText" id="state" type="text"/>
 
                     </div>
 
