@@ -185,8 +185,8 @@ function Adopt() {
       <Nav menu={state.menu} />
       <Banner imgbanner={Back} pet={Dog} info={state.infobanner} />
       <Container maxWidth="xl" className="o-container">
-        <Carousel title="juan" pets={state.perros} />
-        <Carousel title="Gato" pets={state.gatos} />
+        <Carousel title="Perros" pets={state.perros} />
+        <Carousel title="Gatos" pets={state.gatos} />
       </Container>
 
       <Footer
