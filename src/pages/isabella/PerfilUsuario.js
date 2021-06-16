@@ -18,7 +18,7 @@ export default function PerfilUsuario({ nomusuario, avatar, altavatar }) {
             {
               text: "Inicio",
               url: "/",
-              active: true,
+              active: false,
             },
             {
               text: "Registro",
@@ -46,9 +46,9 @@ export default function PerfilUsuario({ nomusuario, avatar, altavatar }) {
               active: false,
             },
             {
-              text: "Login",
+              text: "jjmanuel026",
               url: "/juan/Login",
-              active: false,
+              active: true,
             },
           ]}
         />
@@ -78,7 +78,7 @@ export default function PerfilUsuario({ nomusuario, avatar, altavatar }) {
             <Carrusel />
           </div>
           <div className="ig-div-mascotascard-cont">
-            <h3>Mascotas Registradas:</h3>
+            <h3>Mascotas apadrinadas:</h3>
             <div className="ig-cont-mascotasu">
               <CardPU
                 nommascota="Pelos"

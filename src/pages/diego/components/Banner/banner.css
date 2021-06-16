@@ -4,6 +4,7 @@
 }
 .o-container-banner img {
   width: 100%;
+  max-height: 600px;
 }
 .o-container-banner-info {
   position: absolute;
@@ -15,7 +16,7 @@
 }
 
 .o-container-banner-info .o-banner-info {
-  margin-left: 3rem;
+  margin: 0 3rem;
   transform: translateY(-50%);
   max-width: 30rem;
 }

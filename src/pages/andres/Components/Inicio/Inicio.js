@@ -84,17 +84,14 @@ function Inicio() {
       <Header menu={state.menu} />
 
       <Banner imgbanner={BannerDoggo} info={state.infobanner} />
-
       <div className="OBJ">
         {array.map((ele, i) => (
           <Objetivos key={i} img={gato2} text={ele} />
         ))}
       </div>
-
       <div className="Noticias">
         <Noticias img={SlideNoticias} />
       </div>
-
       <div
         className="flex-container"
         style={{
@@ -124,7 +121,6 @@ function Inicio() {
           />
         </div>
       </div>
-
       <Footer
         numbers={state.footer.numero}
         email={state.footer.email}

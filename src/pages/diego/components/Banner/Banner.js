@@ -34,7 +34,11 @@ export default function Adopt({ imgbanner, pet, info, direction, width }) {
   return (
     <div className="o-container-banner">
       {orden()}
-      <img src={imgbanner} alt="logo" />
+      <img
+        src={imgbanner}
+        alt="logo"
+        style={{ width: "100%", height: "600px" }}
+      />
     </div>
   );
 }
